@@ -1,7 +1,7 @@
 {
   "name": "@single-spa/lifecyles-compat",
   "type": "module",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Compatibility layer for older single-spa applications and parcels that use lifecycle methods no longer supported",
   "publishConfig": {
     "access": "public"
@@ -35,7 +35,7 @@
     "@babel/preset-env": "^7.28.3",
     "@babel/preset-typescript": "^7.27.1",
     "@jest/globals": "^30.0.5",
-    "heeler": "^3.1.0",
+    "heeler": "^3.1.1",
     "husky": "^9.1.7",
     "jest": "^30.0.5",
     "jest-cli": "^30.0.5",
