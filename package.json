@@ -1,7 +1,7 @@
 {
   "name": "@single-spa/lifecyles-compat",
   "type": "module",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Compatibility layer for older single-spa applications and parcels that use lifecycle methods no longer supported",
   "publishConfig": {
     "access": "public"
