@@ -1,0 +1,48 @@
+{
+  "name": "@single-spa/lifecyles-compat",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Compatibility layer for older single-spa applications and parcels that use lifecycle methods no longer supported",
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": {
+      "default": "./lib/lifecycles-compat.js",
+      "types": "./lib/lifecycles-compat.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "format": "prettier --write .",
+    "check-format": "prettier --check .",
+    "prepare": "husky"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "single-spa",
+    "init"
+  ],
+  "author": "Jolyn Denning",
+  "license": "MIT",
+  "packageManager": "pnpm@10.14.0",
+  "devDependencies": {
+    "@babel/core": "^7.28.3",
+    "@babel/preset-env": "^7.28.3",
+    "@babel/preset-typescript": "^7.27.1",
+    "@jest/globals": "^30.0.5",
+    "heeler": "^3.1.0",
+    "husky": "^9.1.7",
+    "jest": "^30.0.5",
+    "jest-cli": "^30.0.5",
+    "prettier": "^3.6.2",
+    "pretty-quick": "^4.2.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "single-spa": "7.0.0-beta.8"
+  }
+}
