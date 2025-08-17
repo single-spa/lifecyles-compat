@@ -1,7 +1,10 @@
 import type { LifeCycles } from "single-spa";
 
 export default function singleSpaLifecyclesCompat(
-  lifecycles: Partial<LifeCycles> & { bootstrap?: LifeCycles["init"] },
+  lifecycles: LifeCycles & {
+    bootstrap?: LifeCycles["init"];
+    init?: LifeCycles["init"];
+  },
 ): LifeCycles {
   if (!lifecycles) {
     throw Error(
